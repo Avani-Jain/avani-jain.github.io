@@ -37,15 +37,58 @@
     }
 
     .img {
-        height: 160px;
-        width: 130px;
+        height: 200px;
+        width: 180px;
         position: absolute;
         top: 20px;
         right: 40px;
+        border-radius: 30px;
     }
 
     #cont {
         font-size: 30px;
+    }
+
+    summary {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .matter {
+        border-radius: 5px;
+        /* border: 5px solid black;
+        border-color: rgb(31, 8, 238);*/
+        padding: 10px;
+        background-color: rgb(250, 226, 246);
+        margin: 10px;
+
+    }
+
+    td {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    .checked {
+        color: orange;
+
+    }
+
+    table {
+        font-size: 20px;
+    }
+
+    .gen {
+        font-size: 20px;
     }
 </style>
 
@@ -53,56 +96,212 @@
     <div class="name" id="name">
         AVANI JAIN
     </div>
-    <div class="intro" id="intro"> ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique
-        ut, officia quidem eos non natus unde dicta qui possimus omnis porro, veritatis reiciendis eligendi sint.
-        Iure ex at fugiat? ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae ipsum saepe
-        quas, odio mollitia libero similique reprehenderit voluptates placeat perspiciatis sunt ratione quod
-        corporis. Nostrum distinctio nihil est ut expedita.
+    <div class="intro" id="intro">
+        2nd Year Student from the IT Branch of University Institute of Technology, RGPV. An inquisitive tech enthusiast
+        with a willingness to explore and learn and a quick adaptability towards new tasks. Team performer with a
+        creative mindset. Interested in the position of Web Developer for Enterpreneurship-Cell RGPV to learn, develop
+        and apply my skills.
     </div>
-
-
     <!--teri photo-->
-    <img src="IMG_20220112_232043.jpg" class="img">
-
+    <img src="use1.jpg" class="img">
     <div class="cont">
-
-        <p id="cont">CONTACT DETAILS </p> <!-- contact details-->
-        <ul>
-            <li> Email Id </li>
-            <li> LinkedIn Profile Link</li>
+        <p id="cont"> <u>CONTACT DETAILS </u></p> <!-- contact details-->
+        <ul class="gen">
+            <li> Email Id: avanij611@gmail.com </li>
+            <li> LinkedIn Profile: <a href="https://www.linkedin.com/in/avani-jain-456b17229/">
+                    https://www.linkedin.com/in/avani-jain-456b17229/</a> </li>
         </ul>
     </div>
-
-    <div class="about" id="about ">
+    <div class="matter" id="about ">
         <!-- about section drop down-->
-        
-
         <details>
             <summary>
-                ABOUT
+                <u>ABOUT</u>
             </summary>
             <p>
-                Achievements
-               <table>
-                 Results 1st Year college – 9.09
-                10th CBSE Board – 93.8%
-                12th CBSE Board – 94.2% in PCM Stream
-</table>
-                Goals:
-                To secure a good position in a reputable organization and expand my horizon of learning while
-                fully utilizing my training and skills and being an asset for the respective organization.<br>
-                Alma Mater :
-                I am currently in the 2nd year of University Institute of Technology, RGPV pursuing engineering
-                in the Information Technology Branch.
-
-                Fields of Interest:
-
+                <u class="heading"> Education:</u>
+            <table class="table">
+                <tr>
+                    <td>
+                        10<sup>th</sup> CBSE Board</td>
+                    <td>
+                        Carmel Convent Sr. Sec. School Bhopal</td>
+                    <td>
+                        93.8 %</td>
+                    <td>
+                        2018</td>
+                </tr>
+                <tr>
+                    <td>
+                        12<sup>th</sup> CBSE Board</td>
+                    <td>
+                        Carmel Convent Sr. Sec. School Bhopal.</td>
+                    <td>
+                        94.2 %</td>
+                    <td>
+                        2020</td>
+                </tr>
+                <tr>
+                    <td>
+                        1<sup>st</sup> year</td>
+                    <td>
+                        University Institute of Technology Bhopal.</td>
+                    <td>
+                        9.09 CGPA</td>
+                    <td>
+                        2021</td>
+                </tr>
+            </table> <br>
+            <u class="heading">Goals: </u>
+            <p class="gen"> To secure a good position in a reputable organization and expand my horizon of learning
+                while
+                fully utilizing my training and skills and being an asset for the respective organization.</p><br>
+            <u class="heading">Alma Mater:</u>
+            <p class="gen"> I am currently in the 2nd year of University Institute of Technology, RGPV pursuing
+                engineering
+                in the Information Technology Branch. </p><br>
+            <u class="heading"> Fields of Interest:</u>
+            <ul class="gen">
+                <li>Data Science </li>
+                <li>Video Editing</li>
+                <li>Sports</li>
+                <li>Watching Movies</li>
+            </ul>
             </p>
         </details>
     </div>
 
+    <div class="matter">
+        <details>
+            <summary>
+                <u> SKILLS </u>
+            </summary>
+            <table>
+                <tr>
+                    <td> C++ </td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Python </td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star  checked "></span>
+                        <span class="fa fa-star  "></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td> HTML </td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> CSS </td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Graphic Design </td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Creative Writing</td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Analytical Skills</td>
+                    <td>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                    </td>
+                </tr>
+            </table>
+
+        </details>
+
+    </div>
+
+    <div class="matter">
+        <details>
+            <summary>
+                <u> PROJECTS </u>
+            </summary>
+            <ol class="gen">
+                <li>Python Projects
+                    <ul>
+                        <li> Dice Simulator Game</li>
+                        <li> Rock Paper Scissor Game</li>
+                    </ul>
+
+                    <a href="https://drive.google.com/drive/folders/1F-i7bkL4cbwOYYrvBTJO0nDe2ffRTj5s?usp=sharing">
+                        click here </a>
+                </li>
+
+                <li>Graphic Design Projects
+                    <br> <a
+                        href=" https://drive.google.com/drive/folders/1DMRb4cbP9WktfUshwO71gxh4liRimpan?usp=sharing">
+                        click here </a>
+                </li>
+            </ol>
+        </details>
+    </div>
 </body>
 
 </html>
